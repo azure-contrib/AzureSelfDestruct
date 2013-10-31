@@ -8,6 +8,7 @@ This will effectively scale down your infrastructure, and power off the current 
 
 This does not work in the emulator.
 
+# Usage
 
 To start, you need a Publish Settings file, which can be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=254432).
 
@@ -20,7 +21,7 @@ To delete a machine, simply call 'DeleteInstance':
 
 ```c#
 // immediate annihilation
-SelfDestruct.DeleteInstance(@".\Path\To\File.publishsettings");
+SelfDestruct.DeleteInstance(@".\path\to\file.publishsettings");
 ```
 
 
@@ -29,7 +30,7 @@ Like all good self-destruction routines, you can also have a countdown:
 
 ```c#
 // gone in 60 seconds
-SelfDestruct.DeleteInstance(@".\Path\To\File.publishsettings", TimeSpan.FromSeconds(60));
+SelfDestruct.DeleteInstance(@".\path\to\file.publishsettings", TimeSpan.FromSeconds(60));
 ```
 
 
