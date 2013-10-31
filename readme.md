@@ -43,6 +43,8 @@ Like all good self-destruction routines, you can also have a countdown:
 SelfDestruct.DeleteInstance(@".\path\to\file.publishsettings", TimeSpan.FromSeconds(60));
 ```
 
+If your deployment only contains one instance, it won't be deleted. You'll need to delete the while deployment instead.
+
 
 ## Acknowledgements
 
