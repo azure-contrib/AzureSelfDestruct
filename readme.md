@@ -46,9 +46,11 @@ SelfDestruct.DeleteInstance(@".\path\to\file.publishsettings", TimeSpan.FromSeco
 
 ## Acknowledgements
 
-
 Gaurav Mantri for his code samples [http://gauravmantri.com/].
 
 
 Richie Custance for his ideas.
 
+## License
+
+MIT
