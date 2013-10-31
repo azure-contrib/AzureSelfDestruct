@@ -1,6 +1,6 @@
 # Azure Self Destruct
 
-A library / single class allowing a WebRole/WorkerRole to delete itself from the deployment.
+A library allowing an Azure WebRole/WorkerRole to delete itself from the current deployment.
 
 
 This will effectively scale down your infrastructure, and power off the current machine.
@@ -20,7 +20,7 @@ To delete a machine, simply call 'DeleteInstance':
 
 ```c#
 // immediate annihilation
-SelfDestruct.DeleteInstance(@'.\Path\To\File.publishsettings');
+SelfDestruct.DeleteInstance(@".\Path\To\File.publishsettings");
 ```
 
 
@@ -29,7 +29,7 @@ Like all good self-destruction routines, you can also have a countdown:
 
 ```c#
 // gone in 60 seconds
-SelfDestruct.DeleteInstance(@'.\Path\To\File.publishsettings', TimeSpan.FromSeconds(60));
+SelfDestruct.DeleteInstance(@".\Path\To\File.publishsettings", TimeSpan.FromSeconds(60));
 ```
 
 
