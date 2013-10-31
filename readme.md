@@ -48,7 +48,7 @@ If your deployment only contains one instance, it won't be deleted. You'll need 
 
 ## Acknowledgements
 
-Gaurav Mantri for his code samples [http://gauravmantri.com/].
+[Gaurav Mantri](http://gauravmantri.com/) for his code samples.
 
 
 Richie Custance for his ideas.
