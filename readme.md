@@ -3,7 +3,7 @@
 A library allowing an Azure WebRole/WorkerRole to delete itself from the current deployment.
 
 
-This will effectively scale down your infrastructure, and power off the current machine.
+This will effectively scale down your infrastructure, by powering down the current machine.
 
 
 This does not work in the emulator.
