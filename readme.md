@@ -8,7 +8,17 @@ This will effectively scale down your infrastructure, and power off the current 
 
 This does not work in the emulator.
 
-# Usage
+## Installation
+
+You can just copy the `SelfDestruct.cs` file into your project. 
+
+A package is also available on [NuGet](https://www.nuget.org/packages/Two10.Azure.SelfDestruct/).
+
+```
+PM> Install-Package Two10.Azure.SelfDestruct
+```
+
+## Usage
 
 To start, you need a Publish Settings file, which can be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=254432).
 
@@ -34,7 +44,7 @@ SelfDestruct.DeleteInstance(@".\path\to\file.publishsettings", TimeSpan.FromSeco
 ```
 
 
-# Acknowledgements
+## Acknowledgements
 
 
 Gaurav Mantri for his code samples [http://gauravmantri.com/].
