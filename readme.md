@@ -20,10 +20,10 @@ PM> Install-Package Two10.Azure.SelfDestruct
 
 ## Usage
 
-To start, you need a Publish Settings file, which can be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=254432).
+To start you need a Publish Settings file which can be downloaded [here](http://go.microsoft.com/fwlink/?LinkId=254432).
 
 
-If the file contains more than one subscription, it is recommended to remove other subscriptions, such that you only have the one in there you want to use.
+If the file contains more than one subscription, you'll need to remove the other subscriptions such that you only have the one in there you want to use.
 
 
 To delete a machine, simply call 'DeleteInstance':
