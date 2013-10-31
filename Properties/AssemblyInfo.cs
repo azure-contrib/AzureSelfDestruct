@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Two10.Azure.SelfDestruct")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A library allowing an Azure WebRole/WorkerRole to delete itself")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("two10degrees")]
 [assembly: AssemblyProduct("Two10.Azure.SelfDestruct")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
