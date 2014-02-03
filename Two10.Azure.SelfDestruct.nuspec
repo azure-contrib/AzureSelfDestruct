@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Two10.Azure.SelfDestruct</id>
+        <version>$version$</version>
+        <authors>Richard Astbury, two10degrees</authors>
+        <owners>richorama</owners>
+        <licenseUrl>https://raw2.github.com/WindowsAzure-Contrib/AzureSelfDestruct/master/license.txt</licenseUrl>
+        <projectUrl>https://github.com/WindowsAzure-Contrib/AzureSelfDestruct</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library allowing an Azure WebRole/WorkerRole to delete itself.</description>
+        <summary>A library allowing an Azure WebRole/WorkerRole to delete itself from the current deployment. This will effectively scale down your infrastructure, by powering down the current machine. This does not work in the emulator.</summary>
+    </metadata>
+</package>
