@@ -1,3 +1,5 @@
+[![AzureDirectory Build Status](https://www.myget.org/BuildSource/Badge/windowsazure-contrib?identifier=794aeea1-40fe-45c1-9aa3-1a999cde8527)](https://www.myget.org/gallery/windowsazure-contrib)
+
 # Azure Self Destruct
 
 A library allowing an Azure WebRole/WorkerRole to delete itself from the current deployment.
